@@ -1,0 +1,60 @@
+body {
+    background-color: #000;
+}
+
+.container {
+    text-align: left;
+    margin-top: 5px;
+    min-width: 1270px;
+    height: 90vh;
+    background-color: #fff;
+    /* color: #eef; */
+    padding: 20px;
+}
+
+#ui {
+    display: flex;
+}
+
+#animal-pics {
+    min-width: 580px;
+    height: 535px;
+    background-color: #112;
+    border-radius: 10px;
+    padding: 10px 10px 0 10px;
+    overflow-y: auto;
+    text-align: center;
+}
+
+#video-player {
+    margin-left: 20px;
+}
+
+#animal-pics img {
+    width: 170px;
+    height: 135px;
+    margin: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#animal-pics img:hover {
+    filter: saturate(3);
+}
+
+p {
+    color: #555;
+    padding: 0px 20px;
+    font-size: 1.rem;
+    line-height: 1.4;
+    text-align: left;
+    padding-left: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    padding: 0 20px;
+}
